@@ -1,0 +1,164 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 6vw 0;
+}
+
+#s1{
+    padding-top: 7vw;
+}
+#s4{
+    padding-bottom: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4A298F;
+    margin: 0 12vw;
+    text-align: center;
+    box-shadow: #1e0f3f9d 5px 5px 10px;
+    width: 76vw;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4A298F;
+    margin: 0 12vw;
+    text-align: center;
+    box-shadow: #1e0f3f9d 5px 5px 10px;
+    width: 76vw;
+}
+
+#logo{
+    width: 8.5vw;
+}
+
+.imagem{
+    width: 25vw;
+}
+.planeta{
+    width: 13vw;
+}
+
+.paralax1{
+    position: relative;
+    background-image: url("../img/fundo1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.paralax2{
+    position: relative;
+    background-image: url("../img/fundo2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.paralax3{
+    position: relative;
+    background-image: url("../img/fundo3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.paralax4{
+    position: relative;
+    background-image: url("../img/fundo4.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.divisoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloco{
+    background-color: #F6BDA0;
+    margin: 0 13vw;
+    text-align: justify;
+    display:inline-block;
+    padding: 1vw;
+    box-shadow: #1e0f3f9d 5px 5px 10px;    
+    display: flex;
+    justify-content: center;  
+}
+
+.direito{
+    margin: 0 13vw 0 0.5vw;
+}
+
+.esquerdo{
+    margin: 0 0.5vw 0 13vw;
+}
+
+.texto{
+     margin: 0 3vw; 
+     justify-content: center;   
+}
+
+.centralizar{
+    justify-content: center;
+    padding: 2vw 3.5vw;
+}
+
+.centro{
+    text-align: center;
+}
+
+.titulo{
+    background-color: #a3f6a0;
+    text-align: justify;
+    display: inline-flex;
+    box-shadow: #1e0f3f9d 5px 5px 10px;
+    align-content: center;
+    padding: 0 7vw;
+}
+
+img{
+    width: 95%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+a, span{
+    color: azure;
+    text-decoration: none;
+}
+a:hover{
+    position: relative;
+    bottom: 5px;
+    text-decoration: underline;
+}
+
+ul{
+    gap: 1rem;
+    margin: 5px 0 10px 0;
+}
+
+h2{
+    margin: 0;
+    padding: 8px 0 0 0;
+}
