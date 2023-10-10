@@ -7,6 +7,7 @@ html, body{
     font-size: 1.2vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    color: #242828;
 }
 
 section{
@@ -24,10 +25,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4A298F;
+    background-color: #a95a3f;
+    color: #f8eebf;
     margin: 0 12vw;
     text-align: center;
-    box-shadow: #1e0f3f9d 5px 5px 10px;
+    box-shadow: #410b0b80 5px 5px 8px; 
     width: 76vw;
     
     position: fixed;
@@ -39,12 +41,18 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4A298F;
+    background-color:#a95a3f;
+    color: #edbb70;
     margin: 0 12vw;
     text-align: center;
-    box-shadow: #1e0f3f9d 5px 5px 10px;
+    box-shadow: #410b0b80 5px 5px 8px;  
     width: 76vw;
 }
+
+footer h3{
+    color: #f8eebf;
+}
+
 
 #logo{
     width: 8.5vw;
@@ -59,10 +67,10 @@ footer{
 
 .paralax1{
     position: relative;
-    background-image: url("../img/fundo1.png");
+    background-image: url("../img/fundo1.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 .paralax2{
     position: relative;
@@ -92,12 +100,13 @@ footer{
 }
 
 .bloco{
-    background-color: #F6BDA0;
+    background-color: #f8eebf;
+    color: #a95a3f;
     margin: 0 13vw;
     text-align: justify;
     display:inline-block;
     padding: 1vw;
-    box-shadow: #1e0f3f9d 5px 5px 10px;    
+    box-shadow: #410b0b80 5px 5px 8px;  
     display: flex;
     justify-content: center;  
 }
@@ -125,10 +134,11 @@ footer{
 }
 
 .titulo{
-    background-color: #a3f6a0;
+    background-color: #a95a3f;
+    color: #f8eebf;
     text-align: justify;
     display: inline-flex;
-    box-shadow: #1e0f3f9d 5px 5px 10px;
+    box-shadow: #410b0b80 5px 5px 8px;  
     align-content: center;
     padding: 0 7vw;
 }
@@ -144,7 +154,7 @@ header ul{
     align-items: center;
 }
 a, span{
-    color: azure;
+    color: #edbb70;
     text-decoration: none;
 }
 a:hover{
