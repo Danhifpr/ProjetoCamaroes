@@ -27,7 +27,7 @@ header{
     justify-content: center;
     background-color: #a95a3f;
     color: #f8eebf;
-    margin: 0 12vw;
+    margin: 0 12.2vw;
     text-align: center;
     box-shadow: #410b0b80 5px 5px 8px; 
     width: 76vw;
@@ -43,7 +43,7 @@ footer{
     justify-content: center;
     background-color:#a95a3f;
     color: #edbb70;
-    margin: 0 12vw;
+    margin: 0 12.2vw;
     text-align: center;
     box-shadow: #410b0b80 5px 5px 8px;  
     width: 76vw;
@@ -108,7 +108,12 @@ footer h3{
     padding: 1vw;
     box-shadow: #410b0b80 5px 5px 8px;  
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.first{
+    flex-direction: row;
 }
 
 .direito{
@@ -171,4 +176,9 @@ ul{
 h2{
     margin: 0;
     padding: 8px 0 0 0;
+}
+
+.negrito{
+    font-size: larger;
+    font-weight: bold;
 }
